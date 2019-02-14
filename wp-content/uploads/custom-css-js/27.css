@@ -1,0 +1,31 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* ------------------------------------------------------------------------------------- FRONT PAGE */
+/* Front Page video size */
+.elementor-video {
+ 	width:1920px; 
+  	height:400px;
+}
+
+/* Removes the header button */ 
+.header-buttons-wrapper .button {
+    display:none;
+}
+
+.text-logo {
+	z-index:1000;
+}
+
+/* ------------------------------------------------------------------------------------- INNER PAGE */
+/* Takes the border/line from the menu on the INNER PAGE
+.mesmerize-inner-page .navigation-bar.bordered {
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+} */
+
+/* Removes Inner Page Header */
+.header-wrapper {
+	display:none;
+}</style>
+<!-- end Simple Custom CSS and JS -->
